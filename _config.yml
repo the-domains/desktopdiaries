@@ -1,28 +1,40 @@
-name: DeskTopDiaries
-favicon: null
-layout_spectrum: 0.871956042246893
-typography_spectrum: 0.4535093817394227
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.871956042246893
+cta:
+  bucket: null
+  version: null
+  domain: null
 color:
+  saturation: 0.2507951776497066
+  brandStrength: 0.9615404393989593
+  rhythmicContrast: 0.9593846313655376
   brandColors:
     - '#FF6700'
     - '#EBEBEB'
     - '#C0C0C0'
     - '#3A6EA5'
     - '#004E98'
-  brandStrength: 0.9615404393989593
   lightness: 0.5574175259098411
-  saturation: 0.2507951776497066
-  rhythmicContrast: 0.9593846313655376
 purpose: []
+favicon: null
+name: DeskTopDiaries
+typography_spectrum: 0.4535093817394227
